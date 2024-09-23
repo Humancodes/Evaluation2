@@ -152,7 +152,7 @@ a {
 .hf-input {
   border: 1px solid rgb(178, 178, 178);
   padding: 10px 20px;
-  color: #e9ad28;
+  font-weight: 600;
   font-size: 16px;
 }
 .hf-btn {
