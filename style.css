@@ -208,3 +208,118 @@ a {
 .about-text > img {
   margin-top: 30px;
 }
+
+/* Services */
+.services {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.services-cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 8%;
+  gap: 20px;
+}
+.card {
+  max-width: 370px;
+  padding: 10px;
+}
+
+/* .card > img {
+} */
+.service-card-head {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  margin: 15px 0;
+}
+.service-card-desc {
+  font-family: "DM Sans", sans-serif;
+  color: grey;
+  font-size: 15px;
+  margin: 20px 0;
+}
+
+/* font-family: "DM Sans", sans-serif; */
+/* font-family: "Barlow Condensed", sans-serif; */
+
+/* Rooms */
+.rooms {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.room-cont {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Barlow Condensed", sans-serif;
+  padding-bottom: 80px;
+}
+.room-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.room-h1 {
+  color: #e9ad28;
+  font-size: 17px;
+  font-weight: 500;
+}
+.room-h2 {
+  font-size: 35px;
+  font-weight: 600;
+  margin: 15px 0;
+}
+.room-cards {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  gap: 25px;
+}
+.room-card {
+  height: 400px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 20px;
+  color: white;
+}
+.room-card1 {
+  background-image: url("https://preview.colorlib.com/theme/hiroto/img/home-room/hr-1.jpg");
+}
+.room-card2 {
+  background-image: url("https://preview.colorlib.com/theme/hiroto/img/home-room/hr-2.jpg");
+}
+.room-card3 {
+  background-image: url("	https://preview.colorlib.com/theme/hiroto/img/home-room/hr-3.jpg");
+}
+.room-card4 {
+  background-image: url("	https://preview.colorlib.com/theme/hiroto/img/home-room/hr-4.jpg");
+}
+
+.room-card-head {
+  font-weight: 600;
+  font-size: 22px;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.room-card-desc {
+  font-weight: 700;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.room-card-desc > span {
+  font-size: 50px;
+}
+.room-card-desc > sup {
+  font-size: 22px;
+  position: relative;
+  bottom: 18px;
+}
